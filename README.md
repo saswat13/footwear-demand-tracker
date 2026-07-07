@@ -49,6 +49,21 @@ streamlit run app/streamlit_app.py
 
 If live Google Trends fetching fails because of rate limits or connection issues, the fetch script generates clearly labeled sample data with the same raw schema so the project can run locally.
 
+## Streamlit Community Cloud Deployment
+
+This repo can be deployed on Streamlit Community Cloud from GitHub.
+
+Use these deployment settings:
+
+- Repository: `saswat13/footwear-demand-tracker`
+- Branch: `main`
+- Main file path: `app/streamlit_app.py`
+- Dependencies file: `requirements.txt`
+
+Generated Parquet data is intentionally not committed to GitHub. On a fresh Streamlit deployment, open `Data Controls & Know-How > Pipeline Runner` and run the full pipeline to create the local data files for that deployment environment.
+
+If the live Google Trends pull is rate-limited or unavailable, the fetch step can generate sample-shaped fallback data so the dashboard can still be explored.
+
 ## Outputs
 
 - `data/raw/google_trends/pull_date=YYYY-MM-DD/*.parquet`: raw batched Google Trends pulls

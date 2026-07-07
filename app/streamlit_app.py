@@ -499,7 +499,10 @@ if data_control_page != "Open an analysis view":
     page = data_control_page
 
 if signal.empty and page not in ["Data Quality", "Pipeline Runner"]:
-    st.warning("No demand signal mart found yet. Run the pipeline commands in the README to create local data.")
+    st.warning(
+        "No demand signal mart found yet. Open Data Controls & Know-How > Pipeline Runner "
+        "and run the full pipeline to create data for this environment."
+    )
     st.stop()
 
 if page == "Weekly Leaderboard":
