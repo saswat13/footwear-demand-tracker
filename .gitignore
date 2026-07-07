@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+.venv/
+venv/
+env/
+
+# Local generated data artifacts
+data/raw/google_trends/pull_date=*/
+data/clean/*.parquet
+data/mart/*.parquet
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db

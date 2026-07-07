@@ -1,0 +1,6 @@
+pandas
+pytrends
+pyarrow
+streamlit
+plotly
+pytest

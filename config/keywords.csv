@@ -1,0 +1,24 @@
+segment,category,brand,keyword,keyword_type,priority,active
+Footwear,Running Shoes,Generic,running shoes,generic_category,0,true
+Footwear,Running Shoes,Nike,nike running shoes,brand_category,1,true
+Footwear,Running Shoes,Hoka,hoka running shoes,brand_category,1,true
+Footwear,Running Shoes,Brooks,brooks running shoes,brand_category,1,true
+Footwear,Running Shoes,ASICS,asics running shoes,brand_category,1,true
+Footwear,Running Shoes,On,on running shoes,brand_category,1,true
+Footwear,Running Shoes,Saucony,saucony running shoes,brand_category,1,true
+Footwear,Running Shoes,New Balance,new balance running shoes,brand_category,1,true
+Footwear,Running Shoes,Adidas,adidas running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Generic,trail running shoes,generic_category,0,true
+Footwear,Trail Running Shoes,Hoka,hoka trail running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Salomon,salomon trail running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Altra,altra trail running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Brooks,brooks trail running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Nike,nike trail running shoes,brand_category,1,true
+Footwear,Trail Running Shoes,Saucony,saucony trail running shoes,brand_category,1,true
+Footwear,Training Shoes,Generic,training shoes,generic_category,0,true
+Footwear,Training Shoes,Nike,nike training shoes,brand_category,1,true
+Footwear,Training Shoes,Adidas,adidas training shoes,brand_category,1,true
+Footwear,Training Shoes,Reebok,reebok training shoes,brand_category,1,true
+Footwear,Training Shoes,NOBULL,nobull training shoes,brand_category,1,true
+Footwear,Training Shoes,Under Armour,under armour training shoes,brand_category,1,true
+Footwear,Training Shoes,Generic,crossfit shoes,generic_category,2,true
